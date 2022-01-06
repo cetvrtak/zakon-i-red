@@ -8,13 +8,13 @@ body {
 	color: #4d4d4d;
     margin: 0 0 100px; /* bottom = footer height */
     padding: 25px;
-	background-color: #540a5c;
+	background-color: #ddf5d5;
 	background-image: url(../images/background_opaque.png);
 	background-size: cover;
 }
 
 header .container {
-	background-color: #ddf5d5;
+	background-color: #540a5c;
 	position: relative;
 	border-radius: 10px;
 }
@@ -30,14 +30,14 @@ header .container {
 }
 
 footer {
-    background-color: #ddf5d5;
+    background-color: #540a5c;
     position: absolute;
     left: 0;
     bottom: 0;
     height: 200px;
     width: 100%;
     overflow:hidden;
-	text-align: left;
+    text-align: left;
 }
 
 hr {
@@ -51,5 +51,5 @@ h1 {
 	font-style: italic;
 	text-align: center;
 	margin: 0px 0px 0px 0px;
-	color: #4d4d4d;
+	color: #540a5c;
 }
