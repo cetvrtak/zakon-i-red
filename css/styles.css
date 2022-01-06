@@ -5,8 +5,8 @@ html {
 
 body {
 	font-family: "Bree Serif", Arial, sans-serif;
-	color: #4d4d4d;
-    margin: 0 0 100px; /* bottom = footer height */
+	color: #000000;
+    margin: 0 0 170px; /* bottom = footer height */
     padding: 25px;
 	background-color: #540a5c;
 	background-image: url(../images/background_opaque.png);
@@ -52,4 +52,27 @@ h1 {
 	text-align: center;
 	margin: 0px 0px 0px 0px;
 	color: #4d4d4d;
+}
+
+#subtitle {
+	background-color: #ddf5d5;
+	height: 85px;
+	position: relative;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+
+#justice {
+	position: absolute;
+	border-radius: 10px;
+	width: 128px;
+	height: 85px;
+}
+
+#quote {
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
