@@ -1,0 +1,55 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	font-family: "Bree Serif", Arial, sans-serif;
+	color: #4d4d4d;
+    margin: 0 0 100px; /* bottom = footer height */
+    padding: 25px;
+	background-color: #540a5c;
+	background-image: url(../images/background_opaque.png);
+	background-size: cover;
+}
+
+header .container {
+	background-color: #ddf5d5;
+	position: relative;
+	border-radius: 10px;
+}
+
+#desc {
+	border-radius: 10px;
+	font-style: italic;
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 15px;
+	padding-top: 10px;
+	height: 50px;
+}
+
+footer {
+    background-color: #ddf5d5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    overflow:hidden;
+	text-align: left;
+}
+
+hr {
+	border-color: black;
+	width: 25%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+h1 {
+	font-style: italic;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	color: #4d4d4d;
+}
