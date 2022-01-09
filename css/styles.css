@@ -17,6 +17,12 @@ body {
 	border-radius: 10px;
 }
 
+#menu-nav {
+	background-color: #ddf5d5;
+	border-radius: 10px;
+	background: linear-gradient(#540a5c, #ddf5d5);
+}
+
 .btn {
 	color: #4d4d4d;
 }
@@ -62,6 +68,15 @@ h1 {
 	font-style: italic;
 	text-align: center;
 	margin: 0px 0px 0px 0px;
+	color: #4d4d4d;
+}
+
+#owner {
+	font-style: italic;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	color: #4d4d4d;
 }
 
