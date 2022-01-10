@@ -18,14 +18,12 @@ body {
 	background-size: cover;
 }
 
-#header-nav {
+nav {
 	background-color: var(--secondary-color);
 	border-radius: 10px;
 }
 
 #menu-nav {
-	background-color: var(--secondary-color);
-	border-radius: 10px;
 	background: linear-gradient(var(--primary-color), var(--secondary-color));
 }
 
