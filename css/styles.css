@@ -1,7 +1,8 @@
 :root {
-	--primary-color: #540a5c;
-	--secondary-color: #ddf5d5;
-	--text-color: #4d4d4d;
+	--primary-bg-color: white;
+	--primary-txt-color: #333;
+	--secondary-bg-color: black;
+	--secondary-txt-color: white;
 }
 
 html {
@@ -13,32 +14,31 @@ body {
 	font-family: "Bree Serif", Arial, sans-serif;
     margin: 0 0 170px; /* bottom = footer height */
     padding: 25px;
-	background-color: var(--primary-color);
+	background-color: var(--primary-bg-color);
 	background-image: url(../images/background_opaque.png);
 	background-size: cover;
 }
 
 nav {
-	background-color: var(--secondary-color);
+	color: var(--secondary-txt-color);
+	background-color: var(--secondary-bg-color);
 	border-radius: 10px;
 }
 
 #menu-nav {
-	background: linear-gradient(var(--primary-color), var(--secondary-color));
+	background: linear-gradient(var(--primary-bg-color), var(--primary-txt-color));
 }
 
 .btn {
-	color: var(--text-color);
+	color: var(--primary-txt-color);
 }
 
 .btn:hover {
-	color: white;
-	background-color: var(--primary-color);
+	background-color: var(--primary-bg-color);
 }
 
 .desc {
 	border-radius: 10px;
-	color: var(--text-color);
 	font-style: italic;
 	text-align: center;
 	font-size: 0.9em;
@@ -47,7 +47,8 @@ nav {
 }
 
 footer {
-    background-color: var(--secondary-color);
+	color: var(--secondary-txt-color);
+    background-color: var(--secondary-bg-color);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -62,7 +63,7 @@ footer.contact {
 }
 
 hr {
-	border-color: black;
+	border-color: var(--primary-bg-color);
 	width: 25%;
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -72,7 +73,7 @@ h1 {
 	font-style: italic;
 	text-align: center;
 	margin: 0px 0px 0px 0px;
-	color: var(--text-color);
+	color: var(--secondary-txt-color);
 }
 
 #owner {
@@ -81,11 +82,10 @@ h1 {
 	margin: 0px 0px 0px 0px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	color: var(--text-color);
 }
 
 #subtitle {
-	background-color: var(--secondary-color);
+	background-color: var(--secondary-bg-color);
 	height: 85px;
 	position: relative;
 	border-radius: 10px;
@@ -100,15 +100,12 @@ h1 {
 }
 
 #quote {
+	color: var(--secondary-txt-color);
 	font-size: 1.5em;
 	font-style: italic;
 	text-align: center;
 	margin-top: 25px;
 	margin-bottom: 25px;
-}
-
-.content {
-	color: white;
 }
 
 #contact-details {
