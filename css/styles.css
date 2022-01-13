@@ -12,7 +12,7 @@ html {
 
 body {
 	font-family: "Bree Serif", Arial, sans-serif;
-    margin: 0 0 170px; /* bottom = footer height */
+    margin: 0 0 220px; /* bottom = footer height */
     padding: 25px;
 	background-color: var(--primary-bg-color);
 	background-image: url(../images/background_opaque.png);
@@ -68,7 +68,7 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 170px;
+    height: 220px;
     width: 100%;
     overflow:hidden;
 	text-align: left;
@@ -138,6 +138,10 @@ hr {
 
 /************ Small **************/
 @media (min-width: 768px) and (max-width: 991px) {
+	footer {height:320px;}
+	body {margin: 0 0 320px;}
+	.mapouter{overflow:hidden;}
+	.gmap_canvas {overflow:hidden;}
 }
 
 /************ Extra-small **************/
@@ -158,7 +162,8 @@ hr {
 		height: 48px;
 	}
 
-	.mapouter{width:100%;}
-
-	.gmap_canvas {width:100%;}
+	footer {height:320px;}
+	body {margin: 0 0 320px;}
+	.mapouter{overflow:hidden;}
+	.gmap_canvas {overflow:hidden;}
 }
