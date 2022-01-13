@@ -26,6 +26,10 @@ header {
 	border-bottom-right-radius: 10px;
 }
 
+a {
+	text-decoration: none;
+}
+
 nav {
 	color: var(--secondary-txt-color);
 	background-color: var(--secondary-bg-color);
