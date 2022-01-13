@@ -124,6 +124,17 @@ hr {
 	margin-top: 50px;
 }
 
+#info_icon {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about_us {
+	text-align: center;
+	margin: 25px;
+}
+
 .mapouter{position:relative;text-align:right;height:150px;width:450px;margin-top:20px;}
 
 .gmap_canvas {overflow:hidden;background:none!important;height:150px;width:450px;}
