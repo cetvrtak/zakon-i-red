@@ -119,6 +119,10 @@ h1 {
 	margin-top: 50px;
 }
 
+.mapouter{position:relative;text-align:right;height:150px;width:450px;margin-top:50px;}
+
+.gmap_canvas {overflow:hidden;background:none!important;height:150px;width:450px;}
+
 /************ Large **************/
 @media (min-width: 1200px) {
 }

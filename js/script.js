@@ -16,7 +16,7 @@ servicesPageButton.addEventListener("click", function(){
 	displayPageContent(servicesPageContent)
 });
 
-const contactPageContent = "<div id=\"contact-details\"><h2>Advokatska Kancelarija Minić</h2><div>Adresa: Aleja Sv. Save bb, Banja Luka 78000</div><div>Tel: +387 66 123 456</div><div>E-mail: miroslav.minic@gmail.com</div></div><br><div>RADNO VRIJEME: PON-PETAK od 08h do 16h; SUBOTA od 09h do 14h</div>";
+const contactPageContent = "<div class=\"d-flex justify-content-between\"><div id=\"contact-details\"><h2>Advokatska Kancelarija Minić</h2><div>Adresa: Aleja Sv. Save bb, Banja Luka 78000</div><div>Tel: +387 66 123 456</div><div>E-mail: miroslav.minic@gmail.com</div><br><div>RADNO VRIJEME: PON-PETAK od 08h do 16h; SUBOTA od 09h do 14h</div></div><div class=\"mapouter\"><div class=\"gmap_canvas\"><iframe width=\"450\" height=\"150\" id=\"gmap_canvas\" src=\"https://maps.google.com/maps?q=Aleja%20Svetog%20Save,%20Banjaluka&t=&z=13&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"></iframe></div></div></div>";
 const contactPageButton = document.getElementById('contact');
 contactPageButton.addEventListener("click", function(){
 	displayPageContent(contactPageContent)
