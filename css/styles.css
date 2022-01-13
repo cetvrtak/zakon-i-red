@@ -141,7 +141,6 @@ hr {
 	footer {height:320px;}
 	body {margin: 0 0 320px;}
 	.mapouter{overflow:hidden;}
-	.gmap_canvas {overflow:hidden;}
 }
 
 /************ Extra-small **************/
@@ -165,5 +164,4 @@ hr {
 	footer {height:320px;}
 	body {margin: 0 0 320px;}
 	.mapouter{overflow:hidden;}
-	.gmap_canvas {overflow:hidden;}
 }
